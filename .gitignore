@@ -27,6 +27,7 @@ hs_err_pid*
 
 # Ignore Gradle build output directory
 build
+out
 
 #Idea
 *.iml
@@ -34,3 +35,10 @@ build
 *.ipr
 *.idea
 generated_tests
+
+
+grpc
+generated
+
+gradlew
+gradlew.*
